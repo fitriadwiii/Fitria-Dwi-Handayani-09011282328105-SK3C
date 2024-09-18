@@ -9,6 +9,7 @@ baru.
 - cat baru akan menampilkan isi dari file baru, hasilnya adalah daftar yang sama seperti yang ditampilkan oleh perintah ls sebelumnya, karena file baru telah diisi dengan output dari perintah ls.
 
 2. Lihat daftar secara lengkap pada direktori /etc/paswd, belokkan tampilan standard output ke file baru tanpa menghapus file baru sebelumnya.
+
 ![Screenshot 2024-09-12 143208](https://github.com/user-attachments/assets/72ab2b86-b990-405c-aae2-b0de24b7f5af)
 
 - Untuk melihat daftar lengkap dari direktori /etc/passwd, gunakan perntah $ ls, sedangkan untuk membelokkan tampilan standard output ke file baru tanpa menghapus file baru sebelumnya, gunakan ‘>>’
