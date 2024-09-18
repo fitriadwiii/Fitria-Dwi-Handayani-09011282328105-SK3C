@@ -49,6 +49,7 @@ akan tersimpan ke file yang dibelokkan. File tersebut kemudian diurutkan menggun
 - @@@ penanda akhir dari here document, yang menandai bahwa semua input telah dimasukkan.
 
 7. Hitung jumlah baris, kata dan karakter dari file baru.urut dengan menggunakan filter dan tambahkan data tersebut ke file baru.
+
 ![7](https://github.com/user-attachments/assets/f7035a5b-c278-45c0-97e6-8423f741580e)
 
 - Untuk mendapatkan jumlah baris, kata, dan karakter (secara berurutan) dari sebuah file, gunakan perintah wc yang dipipakan dengan perintah cat. Hasilnya kemudian bisa ditambahkan ke file menggunakan ‘>>’
@@ -57,6 +58,7 @@ akan tersimpan ke file yang dibelokkan. File tersebut kemudian diurutkan menggun
 $ cat /etc/passwd | sort | pr –n | grep tty03  
 $ find /etc –print | head  
 $ head /etc/passwd | tail –5 | sort
+
 ![8](https://github.com/user-attachments/assets/81442f9c-7cb2-4e73-a901-23c18182188d)
 
 - $ cat /etc/passwd | sort | pr -n | grep tty03
