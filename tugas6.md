@@ -60,6 +60,8 @@ parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua
 PS1=‟> „  
 export PS1 
 
+![2a2](https://github.com/user-attachments/assets/d4307169-e019-456b-870e-b500cf027dd6)
+
 ![2a](https://github.com/user-attachments/assets/75caffe5-2b62-4078-8e3c-6eccb8c43445)
 
 b.  Eksperimen hasil PS1 : 
@@ -71,7 +73,8 @@ Mon Sep 23 > PS1=”\t > “
 Saya=mahasiswa > PS1=”\w >”  
 ~ > PS1=\h >”
 
-![2b](https://github.com/user-attachments/assets/53b453c1-1805-4f48-af9e-29560619f554)
+![2b1](https://github.com/user-attachments/assets/522816df-fa86-4398-9600-cbd17d6eb00b)
+
 
 
 **3.   Logout**
