@@ -52,11 +52,11 @@ Perintah su mahasiswa digunakan untuk beralih ke akun pengguna bernama "mahasisw
 2. su - mahasiswa:   
 Sedangkan su - mahasiswa tidak hanya mengubah identitas pengguna, tetapi juga memulai sesi shell baru seperti halnya ketika pengguna "mahasiswa" masuk secara langsung. Semua variabel lingkungan akan direset sesuai dengan pengaturan default pengguna "mahasiswa", termasuk $HOME, $PATH, dan lainnya. Ini memberikan pengalaman yang lebih lengkap dan aman, seolah-olah Anda baru saja login sebagai "mahasiswa".
 
+
 **2. Prompt String (PS)** 
 
 a.  Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan 
 parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell
-
 PS1=‟> „  
 export PS1 
 
@@ -73,6 +73,7 @@ Saya=mahasiswa > PS1=”\w >”
 
 ![2b](https://github.com/user-attachments/assets/53b453c1-1805-4f48-af9e-29560619f554)
 
+
 **3.   Logout**
 
 Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout 
@@ -84,6 +85,7 @@ clear
 ![3a](https://github.com/user-attachments/assets/2f36d7e5-af10-4d91-9505-d6f2827394d3)
 
 ![3b](https://github.com/user-attachments/assets/047a5c2f-f1a9-4a27-8ed3-bdc171186b4f)
+
 
 **4. Bash script**
 
@@ -136,6 +138,7 @@ $  ( ./p1.sh ; ./p3.sh ) &
 
 ![4b8](https://github.com/user-attachments/assets/cf21050d-7935-4900-ac80-2984f7e421f1)
 
+
 **5. Jobs**
 
 a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil. 
@@ -179,6 +182,7 @@ $ kill [Nomor PID]
 ![5d2](https://github.com/user-attachments/assets/d99bba28-ef8e-407e-afba-d1532152fac4)
 
 ![5d3](https://github.com/user-attachments/assets/bccd8625-3114-4420-bace-ef07fc0e2fa8)
+
 
 **6. History**
 a. Ganti nilai HISTSIZE dari 1000 menjadi 20  
