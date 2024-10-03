@@ -36,3 +36,6 @@ Kelas  : SK3C
     ![Screenshot 2024-10-02 220048](https://github.com/user-attachments/assets/3ef4a4be-ff95-4502-b6b0-67c73031a495)
 
     lalu, mencoba connect ke server teman:
+
+    ![Screenshot 2024-10-03 104558](https://github.com/user-attachments/assets/2495ca78-9fba-4613-a846-5f5196ff261b)
+
